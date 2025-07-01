@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="src/img/icon.ico" type="image/x-icon" />
+    <title>Adivinhe o Evento</title>
+  </head>
+  <body>
+    <button id="btnEntrar">Entrar</button>
+    <button id="btnLogout">Sair</button>
+    <div id="usuarioInfo" class="usuario-nome">
+      <svg
+        class="icone-usuario"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path
+          d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"
+        />
+      </svg>
+      <span id="nomeUsuario"></span>
+    </div>
+
+    <header>
+      <h1 id="tituloPrincipal">Adivinhe o Evento</h1>
+      <p id="subtitulo">Viaje no tempo e teste seus conhecimentos!</p>
+    </header>
+
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <button id="btnFechar">&times;</button>
+        <h2 id="modalTitulo">Login</h2>
+
+        <input type="text" id="nome" placeholder="Nome" />
+        <input type="email" id="email" placeholder="Email" />
+        <input type="password" id="senha" placeholder="Senha" />
+
+        <button id="btnLogin">Entrar</button>
+        <button id="btnCadastro">Cadastrar</button>
+        <div id="mensagemErro"></div>
+
+        <p id="trocarModo">Criar nova conta</p>
+        <p id="erroLogin"></p>
+      </div>
+    </div>
+
+    <div id="quizArea">
+      <div id="pontuacaoContainer">
+        <p class="pontuacao">
+          Sua pontuação: <strong id="pontuacaoUsuario">0</strong>
+        </p>
+      </div>
+
+      <div id="evento" class="evento-card">
+        <img src="src/img/eventoshistoricos.jpg" alt="Imagem do Evento" />
+        <div class="card-conteudo">
+          <p>Reviva os momentos mais marcantes da história!</p>
+          <button id="btnIniciar">Iniciar</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="rankingArea">
+      <h2 id="tituloRanking">Ranking</h2>
+      <div id="rankingContainer">
+        <ul id="rankingLista"></ul>
+      </div>
+    </div>
+
+    <footer id="rodape">
+      <div class="rodape-conteudo">
+        <div class="coluna">
+          <h4>Sobre</h4>
+          <p>
+            Projeto educacional de jogo de adivinhação com foco em eventos
+            históricos.
+          </p>
+        </div>
+        <div class="coluna">
+          <h4>Desenvolvimento</h4>
+          <p>Desenvolvido por Wyctor Gladstone & Thiago Araujo</p>
+        </div>
+        <div class="coluna">
+          <h4>Contato</h4>
+          <p>adivinheoevento@gmail.com</p>
+          <p>(99) 98413-8208</p>
+        </div>
+        <!-- <div class="coluna">
+          <h4>Redes Sociais</h4>
+          <a href="https://www.instagram.com/uemapresidentedutra/"target="_blank">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="https://www.linkedin.com/in/wyctorgladstone/" target="_blank">LinkedIn</a>
+        </div> -->
+        <div class="coluna">
+          <h4>Política de Privacidade</h4>
+          <a href="politica.html">Política de Privacidade</a>
+        </div>
+      </div>
+      <div class="rodape-copy">
+        © 2025 Eventos Históricos. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    <script src="src/script.js"></script>
+  </body>
+</html>
