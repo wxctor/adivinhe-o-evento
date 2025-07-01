@@ -51,23 +51,6 @@ const todosOsEventos = [
     dificuldade: "Fácil",
   },
   {
-    resposta: "revolução francesa",
-    respostasAceitas: [
-      "revolução francesa",
-      "queda da bastilha",
-      "fim da monarquia francesa",
-      "rebelião popular na frança",
-    ],
-    dicas: [
-      "Teve início em 1789.",
-      "Foi marcada pelo lema 'Liberdade, Igualdade e Fraternidade'.",
-      "Ocorreu contra os privilégios da nobreza e do clero.",
-      "Mudou profundamente a estrutura social da França.",
-      "Terminou com a ascensão de Napoleão Bonaparte.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
     resposta: "descobrimento da américa",
     respostasAceitas: [
       "descobrimento da américa",
@@ -131,7 +114,7 @@ const todosOsEventos = [
       "Começou com a afixação de 95 teses em uma porta de igreja.",
       "A invenção da prensa de tipos móveis foi fundamental para sua disseminação.",
       "Um monge alemão foi a figura central desse questionamento.",
-      "Martin Lutero e a venda de indulgências foram o estopim.",
+      "Martinho Lutero e a venda de indulgências foram o estopim.",
     ],
     dificuldade: "Médio",
   },
@@ -172,23 +155,6 @@ const todosOsEventos = [
     dificuldade: "Fácil",
   },
   {
-    resposta: "invenção da imprensa",
-    respostasAceitas: [
-      "invenção da imprensa",
-      "criação da imprensa de gutenberg",
-      "início da imprensa tipográfica",
-      "nascimento da imprensa moderna",
-    ],
-    dicas: [
-      "Uma tecnologia que revolucionou a disseminação do conhecimento e da informação no século XV.",
-      "Permitiu a produção em massa de livros, antes copiados à mão.",
-      "A primeira obra impressa em grande escala foi a Bíblia.",
-      "Um inventor alemão é amplamente creditado por seu desenvolvimento na Europa.",
-      "Johannes Gutenberg e seus tipos móveis foram a chave para essa inovação.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
     resposta: "construção da muralha da china",
     respostasAceitas: [
       "construção da muralha da china",
@@ -204,23 +170,6 @@ const todosOsEventos = [
       "Qin Shi Huang é frequentemente associado ao início da unificação e expansão dessa fortificação.",
     ],
     dificuldade: "Médio",
-  },
-  {
-    resposta: "construção das pirâmides de gizé",
-    respostasAceitas: [
-      "construção das pirâmides de gizé",
-      "edificação das pirâmides do egito",
-      "levantamento das pirâmides de gizé",
-      "construção das grandes pirâmides egípcias",
-    ],
-    dicas: [
-      "Monumentais estruturas de pedra, erguidas há milênios, dominam a paisagem de um deserto no nordeste da África.",
-      "Eram tumbas grandiosas, construídas para abrigar os restos mortais de governantes divinizados.",
-      "A maior delas, e uma das Sete Maravilhas do Mundo Antigo, é a de Quéops.",
-      "Foram edificadas por uma civilização antiga que se desenvolveu às margens do rio Nilo.",
-      "Representam a engenhosidade do Antigo Egito e serviam de morada eterna para seus faraós.",
-    ],
-    dificuldade: "Difícil",
   },
   {
     resposta: "revolução industrial",
@@ -240,27 +189,8 @@ const todosOsEventos = [
     dificuldade: "Médio",
   },
   {
-    resposta: "grande depressão",
+    resposta: "início da guerra fria",
     respostasAceitas: [
-      "grande depressão",
-      "crise de 1929",
-      "colapso econômico mundial",
-      "quebra da bolsa de nova york",
-      "crise de 29",
-    ],
-    dicas: [
-      "Uma grave crise econômica global que teve início na década de 1920 e durou boa parte da década de 1930.",
-      "O 'crash'de uma importante bolsa de valores foi o estopim inicial.",
-      "Milhões de pessoas perderam seus empregos e suas economias, com desemprego massivo e pobreza.",
-      "Atingiu seu auge após a 'Terça-feira Negra' de 1929.",
-      "O colapso da Bolsa de Nova York (Wall Street) marcou o início dessa recessão mundial.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "guerra fria",
-    respostasAceitas: [
-      "guerra fria",
       "início da guerra fria",
       "começo da guerra fria",
       "surgimento da guerra fria",
@@ -275,23 +205,6 @@ const todosOsEventos = [
       "O Muro de Berlim se tornou um símbolo dessa divisão ideológica entre EUA e URSS.",
     ],
     dificuldade: "Fácil",
-  },
-  {
-    resposta: "construção do canal do panamá",
-    respostasAceitas: [
-      "construção do canal do panamá",
-      "obra do canal do panamá",
-      "construção do canal interoceânico do panamá",
-      "construção da passagem do Panamá",
-    ],
-    dicas: [
-      "Uma monumental obra de engenharia que conecta dois grandes oceanos, encurtando rotas marítimas.",
-      "Sua construção enfrentou desafios como doenças tropicais e o relevo montanhoso.",
-      "Os Estados Unidos desempenharam um papel crucial em sua finalização e controle por décadas.",
-      "Permite que navios passem do Atlântico para o Pacífico sem contornar a América do Sul.",
-      "Essa via aquática artificial atravessa o istmo do Panamá.",
-    ],
-    dificuldade: "Difícil",
   },
   {
     resposta: "peste negra",
@@ -382,217 +295,6 @@ const todosOsEventos = [
     dificuldade: "Médio",
   },
   {
-    resposta: "inconfidência mineira",
-    respostasAceitas: [
-      "inconfidência mineira",
-      "conjuração mineira",
-      "revolução de 1789",
-      "revolta de vila rica",
-    ],
-    dicas: [
-      "Um movimento de caráter separatista ocorreu no Brasil colonial, no final do século XVIII, por causa de impostos.",
-      "Os revoltosos buscavam a independência de sua capitania em relação à coroa portuguesa.",
-      "A Coroa impunha a 'derrama', uma cobrança forçada de ouro que gerava grande descontentamento.",
-      "Um de seus líderes, um alferes, foi julgado e executado por traição, tornando-se mártir.",
-      "O grupo, que incluía poetas e intelectuais, foi traído, e o principal executado foi Tiradentes.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "incidente de tunguska",
-    respostasAceitas: [
-      "incidente de tunguska",
-      "impacto de tunguska",
-      "queda de tunguska",
-      "acidente de tunguska",
-      "fenômeno de tunguska",
-    ],
-    dicas: [
-      "Um evento misterioso que ocorreu em 1908 em uma região remota da Sibéria, sem cratera de impacto.",
-      "Provocou uma explosão equivalente a milhares de bombas atômicas, achatando milhões de árvores.",
-      "Cientistas especulam que foi causado por um meteoro ou cometa que se desintegrou na atmosfera.",
-      "Não houve mortes humanas registradas diretamente, mas a floresta foi devastada em uma área de 2.000 km².",
-      "A enorme explosão aérea sobre a Bacia do Rio Podkamennaya Tunguska permanece um enigma científico.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "guerra do emu",
-    respostasAceitas: [
-      "guerra do emu",
-      "campanha contra os emus",
-      "conflito com os emus",
-      "guerra com os emus",
-      "ação militar contra os emus",
-    ],
-    dicas: [
-      "Um inusitado conflito militar ocorrido na Austrália em 1932.",
-      "O objetivo da operação era controlar uma superpopulação de grandes aves nativas.",
-      "Veteranos de guerra com metralhadoras foram enviados para a batalha.",
-      "Os 'inimigos' eram aves grandes e velozes, que estavam destruindo plantações.",
-      "Foi um fracasso militar, onde o Exército Australiano tentou, sem sucesso, erradicar emus.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "saque de roma",
-    respostasAceitas: [
-      "saque de roma",
-      "razia de roma",
-      "escaramuça em roma",
-      "ataque a roma",
-      "queda de roma",
-    ],
-    dicas: [
-      "Uma cidade imperial, outrora inexpugnável, foi invadida e pilhada por uma tribo germânica.",
-      "O evento chocou o mundo romano, simbolizando a fragilidade do Império do Ocidente.",
-      "Apesar da pilhagem, os invasores respeitaram os templos e igrejas.",
-      "O rei visigodo Alarico liderou suas tropas na invasão da cidade eterna.",
-      "A capital do Império Romano do Ocidente foi saqueada pelos Visigodos.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "revolta da vacina",
-    respostasAceitas: [
-      "revolta da vacina",
-      "revolta sanitária",
-      "vacinação compulsória",
-      "obrigatoriedade da vacina",
-      "protesto contra a vacinação",
-    ],
-    dicas: [
-      "Uma revolta popular que ocorreu na capital do Brasil no início do século XX.",
-      "Foi uma reação à obrigatoriedade de uma medida sanitária imposta pelo governo.",
-      "A cidade passava por uma reforma urbana e sanitária, com demolições de cortiços.",
-      "O sanitarista Oswaldo Cruz liderava a campanha que gerou a insatisfação.",
-      "Ocorreu no Rio de Janeiro em 1904, como protesto contra a vacinação obrigatória contra a varíola.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "dieta de worms",
-    respostasAceitas: [
-      "dieta de worms",
-      "dieta imperial",
-      "assembleia de worms",
-      "dieta imperial de worms",
-    ],
-    dicas: [
-      "Uma assembleia imperial crucial realizada em 1521, que confrontou um reformador religioso.",
-      "O imperador do Sacro Império Romano-Germânico presidia o encontro.",
-      "O religioso foi convocado para retratar suas ideias, mas se recusou a fazê-lo, a menos que fosse convencido pelas escrituras.",
-      "O evento marcou um ponto de virada na Reforma Protestante, confirmando a excomunhão de seu principal líder.",
-      "Foi onde Martinho Lutero se recusou a se retratar diante do Imperador Carlos V, dizendo: 'Aqui eu permaneço'.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "grande cisma do ocidente",
-    respostasAceitas: [
-      "grande cisma do ocidente",
-      "cisma papal",
-      "cisma do ocidente",
-      "grande cisma",
-    ],
-    dicas: [
-      "Um período de crise na Igreja Católica que durou quase 40 anos, do final do século XIV ao início do XV.",
-      "Houve simultaneamente dois, e por um tempo até três, papas reivindicando a autoridade máxima.",
-      "As divisões eram geográficas e políticas, com reinos europeus apoiando diferentes 'papas'.",
-      "A resolução veio com o Concílio de Constança, que elegeu um novo e único papa.",
-      "A Igreja Católica se viu dividida, com sedes papais em Roma e Avignon.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "cerco de leningrado",
-    respostasAceitas: [
-      "cerco de leningrado",
-      "batalha de leningrado",
-      "cerco de são petersburgo",
-      "bloqueio de leningrado",
-    ],
-    dicas: [
-      "Um dos cercos mais longos e brutais da história, ocorrido durante a Segunda Guerra Mundial.",
-      "A cidade, de importância estratégica, resistiu por quase 900 dias.",
-      "Milhões de civis morreram de fome, frio e bombardeios durante o bloqueio.",
-      "Foi uma tentativa da Alemanha Nazista de aniquilar a população de uma grande cidade soviética.",
-      "A cidade de São Petersburgo (então Leningrado) foi sitiada pelas forças alemãs por quase três anos.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "guerra dos cem anos",
-    respostasAceitas: [
-      "guerra dos cem anos",
-      "guerra dos 100 anos",
-      "guerra eduardiana",
-      "guerra carolíngia",
-      "conflito franco-inglês",
-      "períodos da guerra dos cem anos",
-    ],
-    dicas: [
-      "Uma série de conflitos intermitentes que duraram bem mais do que um século, na Idade Média.",
-      "Disputas territoriais e sucessórias pelo trono de um reino foram as principais causas.",
-      "A participação de uma jovem camponesa que se tornou heroína marcou um dos períodos.",
-      "Envolveu principalmente as coroas da Inglaterra e da França.",
-      "O longo conflito entre ingleses e franceses, com a figura de Joana d'Arc.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "guerra da coreia",
-    respostasAceitas: [
-      "guerra da coreia",
-      "conflito coreano",
-      "guerra coreana",
-    ],
-    dicas: [
-      "Um conflito armado que dividiu uma península asiática em duas nações.",
-      "Envolveu o apoio de grandes potências mundiais a lados opostos.",
-      "Aconteceu na década de 1950.",
-      "Teve como resultado a divisão da Coreia em Norte e Sul.",
-      "Começou com a invasão da Coreia do Sul pela Coreia do Norte.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "revolução cubana",
-    respostasAceitas: [
-      "revolução cubana",
-      "movimento 26 de julho",
-      "golpe de estado em cuba",
-      "luta armada em cuba",
-      "castrismo",
-    ],
-    dicas: [
-      "Um movimento que derrubou um governo ditatorial em uma ilha caribenha.",
-      "Teve como líder um famoso guerrilheiro que se tornou presidente.",
-      "Levou ao estabelecimento de um regime socialista próximo aos Estados Unidos.",
-      "Ocorreu na década de 1950.",
-      "Fidel Castro liderou a revolução que derrubou Fulgencio Batista.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
-    resposta: "guerra do vietnã",
-    respostasAceitas: [
-      "guerra do vietnã",
-      "guerra vietnamita",
-      "guerra americana",
-      "vietnamização",
-      "segunda guerra da indochina",
-    ],
-    dicas: [
-      "Um longo e sangrento conflito no sudeste asiático que envolveu os Estados Unidos.",
-      "Teve como pano de fundo a Guerra Fria.",
-      "Causou grande divisão na sociedade americana.",
-      "Terminou com a retirada das forças americanas e a unificação do país.",
-      "Ocorreu entre as décadas de 1950 e 1970.",
-    ],
-    dificuldade: "Difícil",
-  },
-  {
     resposta: "invenção da lâmpada elétrica",
     respostasAceitas: [
       "invenção da lâmpada elétrica",
@@ -628,5 +330,5 @@ const todosOsEventos = [
       "É o símbolo mais famoso de Paris, na França.",
     ],
     dificuldade: "Fácil",
-  },
+  }
 ];
