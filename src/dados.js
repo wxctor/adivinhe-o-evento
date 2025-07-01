@@ -131,7 +131,7 @@ const todosOsEventos = [
       "Começou com a afixação de 95 teses em uma porta de igreja.",
       "A invenção da prensa de tipos móveis foi fundamental para sua disseminação.",
       "Um monge alemão foi a figura central desse questionamento.",
-      "Martinho Lutero e a venda de indulgências foram o estopim.",
+      "Martin Lutero e a venda de indulgências foram o estopim.",
     ],
     dificuldade: "Médio",
   },
@@ -258,8 +258,9 @@ const todosOsEventos = [
     dificuldade: "Difícil",
   },
   {
-    resposta: "início da guerra fria",
+    resposta: "guerra fria",
     respostasAceitas: [
+      "guerra fria",
       "início da guerra fria",
       "começo da guerra fria",
       "surgimento da guerra fria",
