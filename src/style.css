@@ -376,6 +376,11 @@ body {
     padding: 15px;
   }
 
+  #nome {
+  margin: 0px 0 0px 0px;
+  display: none;
+  }
+
   .evento-card img {
     max-height: 170px;
     max-width: 300px;
