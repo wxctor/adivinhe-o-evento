@@ -157,6 +157,7 @@ const todosOsEventos = [
   {
     resposta: "construção da muralha da china",
     respostasAceitas: [
+      "muralha da china",
       "construção da muralha da china",
       "edificação da muralha da china",
       "levantamento da grande muralha",
@@ -191,6 +192,7 @@ const todosOsEventos = [
   {
     resposta: "início da guerra fria",
     respostasAceitas: [
+      "guerra fria",
       "início da guerra fria",
       "começo da guerra fria",
       "surgimento da guerra fria",
