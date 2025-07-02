@@ -23,6 +23,7 @@ const todosOsEventos = [
       "fim do muro de berlim",
       "reunificação da alemanha",
       "demolição do muro de berlim",
+      "muro de berlim",
     ],
     dicas: [
       "Aconteceu no final do século XX.",
@@ -40,6 +41,7 @@ const todosOsEventos = [
       "queda da monarquia",
       "início da república no brasil",
       "deposição de dom pedro II",
+      "início da república"
     ],
     dicas: [
       "Um antigo império na América do Sul viu seu fim em um dia de outono.",
@@ -74,6 +76,7 @@ const todosOsEventos = [
       "chegada dos portugueses ao brasil",
       "início da colonização do brasil",
       "achamento do brasil",
+      "descoberta do brasil",
     ],
     dicas: [
       "Navegadores europeus, buscando novas rotas para as Índias, chegaram a uma nova terra em 1500.",
@@ -91,6 +94,7 @@ const todosOsEventos = [
       "fim do império bizantino",
       "fim da idade média",
       "conquista de constantinopla",
+      "costantinopla",
     ],
     dicas: [
       "Uma importante cidade, ponte entre dois continentes, foi conquistada em 1453.",
@@ -144,6 +148,7 @@ const todosOsEventos = [
       "abolição da escravatura no brasil",
       "lei áurea",
       "abolição da escravidão",
+      "abolição da escravidão no brasil",
     ],
     dicas: [
       "Um importante ato legal, assinado em 13 de maio, libertou uma grande parcela da população brasileira.",
@@ -157,11 +162,12 @@ const todosOsEventos = [
   {
     resposta: "construção da muralha da china",
     respostasAceitas: [
-      "muralha da china",
       "construção da muralha da china",
       "edificação da muralha da china",
       "levantamento da grande muralha",
       "erguimento da muralha chinesa",
+      "muralha chinesa",
+      "muralha da china",
     ],
     dicas: [
       "Uma gigantesca estrutura defensiva, visível até do espaço (com ressalvas!), foi erguida por uma antiga civilização asiática.",
@@ -179,6 +185,7 @@ const todosOsEventos = [
       "início da era industrial",
       "transformação industrial",
       "processo de industrialização",
+      "revolução das maquinas",
     ],
     dicas: [
       "Um período de profundas transformações econômicas e sociais que se iniciou no século XVIII.",
@@ -192,12 +199,12 @@ const todosOsEventos = [
   {
     resposta: "início da guerra fria",
     respostasAceitas: [
-      "guerra fria",
       "início da guerra fria",
       "começo da guerra fria",
       "surgimento da guerra fria",
       "início do conflito leste-oeste",
       "início da rivalidade EUA e URSS",
+      "guerra fria",
     ],
     dicas: [
       "Um período de intensa rivalidade geopolítica, sem conflito armado direto, entre duas superpotências após a Segunda Guerra Mundial.",
@@ -249,6 +256,7 @@ const todosOsEventos = [
       "governo de getúlio vargas",
       "período vargas na presidência",
       "regime vargas",
+      "governo de vargas",
     ],
     dicas: [
       "Um longo período da história brasileira, de 1930 a 1945 e depois de 1951 a 1954, marcado por forte centralização do poder.",
@@ -304,6 +312,7 @@ const todosOsEventos = [
       "lâmpada de edison",
       "descoberta da lâmpada elétrica",
       "criação da lâmpada incandescente",
+      "criação da lâmpada",
     ],
     dicas: [
       "Uma inovação que trouxe a luz para dentro das casas e cidades, transformando as noites.",
@@ -332,5 +341,5 @@ const todosOsEventos = [
       "É o símbolo mais famoso de Paris, na França.",
     ],
     dificuldade: "Fácil",
-  }
+  },
 ];
